@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aws-deploy-test"
+version = "0.1.0"
+description = "To test promoting deployment to EC2 instance, up and Running"
+authors = ["VVK Mulukutla <vvk.mulukutla@gmail.com>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

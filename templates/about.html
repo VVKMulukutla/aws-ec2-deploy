@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Paris</title>
+    <style>
+        /* Add your attractive CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About Paris</h1>
+        <p>Paris is the capital city of France. It is known for its beautiful architecture, rich history, and vibrant culture. The city is home to famous landmarks such as the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral.</p>
+        <p>Paris is also renowned for its cuisine, fashion, and art. Visitors can enjoy delicious French pastries, explore high-end boutiques, and admire world-class artworks in museums like the Musée d'Orsay.</p>
+        <p>Experience the charm of Paris by strolling along the Seine River, visiting charming neighborhoods like Montmartre, and enjoying breathtaking views from the top of the Arc de Triomphe.</p>
+        <a href="{{ url_for('index') }}" class="back-button">Back to Home</a>
+    </div>
+</body>
+</html>
